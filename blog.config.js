@@ -3,7 +3,7 @@ const BLOG = {
   author: 'fishyer',
   email: 'yutianran666@gmail.com',
   link: 'https://blog.fishyer.com',
-  description: '我有一个交流高效信息管理的微信群，如果感兴趣的话，欢迎加我微信拉你进群：fishyer2850，备注：入群',
+  description: '效能工具控，全栈工程师，量化交易者，终生学习者',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'serif', // ['sans-serif', 'serif']
@@ -11,7 +11,7 @@ const BLOG = {
   darkBackground: '#120E03', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2022, // If leave this empty, current year will be used.
-  postsPerPage: 10,
+  postsPerPage: 100,
   sortByDate: true,
   showAbout: true,
   showArchive: true,
