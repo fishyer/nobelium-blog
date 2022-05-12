@@ -10,8 +10,9 @@ const NavBar = () => {
     { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
     { id: 2, name: locale.NAV.RSS, to: '/subscribe', show: true },
     { id: 3, name: locale.NAV.SEARCH, to: '/search', show: true },
-    { id: 4, name: locale.NAV.FRIENDS, to: 'https://logseq.fishyer.com', show: true },
-    { id: 5, name: locale.NAV.PORTFOLIO, to: 'https://notion.fishyer.com', show: true }
+    { id: 4, name: locale.NAV.SEARCH, to: '/friends', show: true },
+    { id: 5, name: locale.NAV.LOGSEQ, to: 'https://logseq.fishyer.com', show: true },
+    { id: 6, name: locale.NAV.NOTION, to: 'https://notion.fishyer.com', show: true }
   ]
   return (
     <div className="flex-shrink-0">
